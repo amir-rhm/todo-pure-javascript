@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Key phrases and an approximate summary of the site's content">
+    <!-- The subtitle is shown on SERPs page-->
+    <meta name="author" content="amirhossein rahmani"> <!-- the author name-->
+    <meta name="theme-color" content="#ffffff">
+    <!-- Set browser address bar color for mobile browsers, such as Chrome on Android.-->
+    <title>todo app</title> <!-- meta title => 30 > && <60 characters  ||||   first clickable line in SERPs-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/styles/fonts.css">
+    <link rel="stylesheet" href="assets/styles/reset-custom.css">
+    <link rel="stylesheet" href="assets/styles/app.css">
+    <link rel="stylesheet" href="assets/styles/responsive.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="header">
+            <h1 class="header__title">Todo Application</h1>
+            <div class="header__input">
+                <input type="text" class="todo__input" value="" autofocus>
+                <button class="todo__add">add</button>
+                <button class="todo__edit" hidden>edit</button>
+            </div>
+            <button class="btn btn__clear-todos">clear todos</button>
+        </header>
+
+        <section class="todos">
+            <table class="table">
+                <thead>
+                    <tr class="table__row table__row--header">
+                        <th>id</th>
+                        <th>task</th>
+                        <th>action</th>
+                    </tr>
+                </thead>
+                <tbody class="table__body">
+
+                </tbody>
+            </table>
+        </section>
+
+    </div>
+
+
+    <script src="./assets/scripts/app.js"></script>
+</body>
+
+</html>

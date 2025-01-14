@@ -1,0 +1,110 @@
+:root {
+    font-size: 10px;
+    --base-spacing: 0.8rem;
+    --x-gutter: 1.2rem;
+    --y-gutter: 0.8rem;
+    scroll-behavior: smooth;
+}
+
+:root.dark {
+    --dark-color: #333;
+}
+
+
+body {
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+
+
+/* app */
+
+
+.header {
+    margin: 40px 0 80px;
+
+}
+
+.header__title {
+    margin-bottom: 40px;
+}
+
+.header__input {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.todo__input {
+    flex-grow: 1;
+    border: 2px solid #228be6;
+    border-radius: 8px 0 0 8px;
+    padding: 12px;
+}
+
+.todo__edit {
+    /* display: none; */
+}
+
+.todo__add,
+.todo__edit {
+    padding: 12px;
+    border-radius: 0 8px 8px 0;
+    background-color: #228be6;
+    color: #fff;
+}
+
+.todos {}
+
+.table {}
+
+.table__row:nth-child(even) {
+    background-color: rgb(34, 139, 230, 0.1);
+}
+
+.table__row--header {
+    color: #fff;
+    background-color: #228be6;
+}
+
+.table__row--header th {
+    padding: 20px;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+    padding: 16px;
+
+}
+
+.todo__title {}
+
+.todo__remove__btn,
+.btn__clear-todos {
+    background-color: #da2f4f;
+}
+
+
+.btn {
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.todo__edit__btn {
+    background-color: #228be6;
+}
+
+
+.table__body tr td:nth-child(1){
+    width: 10%;
+}
+.table__body tr td:nth-child(2){
+    width: 60%;
+}
+
+.table__body tr td:nth-child(3){
+    width: 30%;
+}

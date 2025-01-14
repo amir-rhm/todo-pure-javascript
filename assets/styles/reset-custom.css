@@ -1,0 +1,151 @@
+/* Basic HTML5 Display Reset */
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Ensure elements block-style default */
+main {
+    display: block;
+}
+
+/* Remove default padding */
+
+
+/* Remove default margin */
+
+/* Set a consistent line height for links */
+a {
+    background-color: transparent;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Button styles reset */
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    border: none;
+    outline: none;
+}
+
+button,
+input {
+    overflow: visible;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+/* Remove inner border and padding in Firefox */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+    border-style: none;
+}
+
+/* Remove the default spin button in number inputs */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/* Fix up textarea and select elements */
+textarea {
+    overflow: auto;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+/* Remove default list styles */
+ul {
+    list-style: none;
+}
+
+/* Set image responsiveness */
+img,
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Additional common resets */
+
+
+button {
+    background-color: transparent;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+input {
+    width: 100%;
+
+}
+
+:focus {
+    outline: none;
+}
+
+/* Optional z-index utility classes */
+.z-index-0 {
+    z-index: 0;
+}
+
+.z-index-100 {
+    z-index: 100;
+}
+
+.z-index-999 {
+    z-index: 999;
+}
+
+.z-index-1000 {
+    z-index: 1000;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Text ellipsis for overflowed content */
+.text-ellipsis {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Remove highlight on tap in mobile browsers */
+button,
+a {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+}
